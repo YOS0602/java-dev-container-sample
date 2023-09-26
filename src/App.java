@@ -1,5 +1,5 @@
 // How to Execute
-// cd ./sample/src
+// cd ./src
 // javac App.java
 // java App
 
