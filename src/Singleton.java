@@ -1,6 +1,6 @@
 public class Singleton {
   /** インスタンスを保持するクラス変数 */
-  private static Singleton _instance = new Singleton();
+  private static final Singleton _instance = new Singleton();
 
   /**
    * privateでコンストラクタを宣言することで、Singletonクラス内部でしかインスタンス化できない
