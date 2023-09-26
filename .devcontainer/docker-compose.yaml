@@ -1,0 +1,15 @@
+# docker compose up -d で起動
+version: '3'
+services:
+  java:
+    # https://hub.docker.com/_/amazoncorretto
+    image: amazoncorretto:21-alpine
+    container_name: 'java-devcontainer'
+    ports:
+      - 8080:80
+    volumes:
+      - type: bind
+        source: '..'
+        target: '/workspace/app'
+    tty: true
+    restart: always
