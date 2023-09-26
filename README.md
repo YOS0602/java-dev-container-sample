@@ -4,3 +4,11 @@
 2. Open command pallet (Cmd + Shift + P)
 3. type `Dev Containers: Reopen in Container`
 4. Enter
+
+# Execute `main` method
+
+```bash
+$ cd ./src
+$ javac App.java
+$ java App
+```

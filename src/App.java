@@ -1,8 +1,3 @@
-// How to Execute
-// cd ./src
-// javac App.java
-// java App
-
 public class App {
     public static void main(String[] args) throws Exception {
         // いくつでもインスタンスをつくることができる
